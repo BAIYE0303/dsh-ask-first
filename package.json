@@ -1,0 +1,63 @@
+{
+  "name": "dsh-ask-first",
+  "version": "1.0.0",
+  "description": "A button in the DeepSeek Harness composer that asks first, then writes: it restates what you meant, asks a few questions with clickable options, then rewrites your draft into a request an agent can start on. Never sends for you.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "prompt",
+    "clarify",
+    "requirement",
+    "input"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BAIYE0303/dsh-ask-first.git"
+  },
+  "homepage": "https://github.com/BAIYE0303/dsh-ask-first#readme",
+  "bugs": {
+    "url": "https://github.com/BAIYE0303/dsh-ask-first/issues"
+  },
+  "author": "BAIYE0303",
+  "license": "MIT",
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0",
+    "dsh": ">=0.1.7-rc.1 <0.2.0 || >=0.2.0-rc.1 <0.2.1 || >=0.2.1-rc.1 <0.2.2 || >=0.2.2-alpha.1 <0.3.0-0"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-client-ui-conversation": ">=0.1.7-rc.1 <0.2.0 || >=0.2.0-rc.1 <0.2.1 || >=0.2.1-rc.1 <0.2.2 || >=0.2.2-alpha.1 <0.3.0-0",
+    "@deepseek-ai/dsh-client-ui-slots": ">=0.1.7-rc.1 <0.2.0 || >=0.2.0-rc.1 <0.2.1 || >=0.2.1-rc.1 <0.2.2 || >=0.2.2-alpha.1 <0.3.0-0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "scripts": {
+    "test": "node test-offline.mjs"
+  }
+}
