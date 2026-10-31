@@ -1,7 +1,7 @@
 {
   "name": "dsh-ask-first",
   "version": "1.0.0",
-  "description": "A button in the DeepSeek Harness composer that asks first, then writes: it restates what you meant, asks a few questions with clickable options, then rewrites your draft into a request an agent can start on. Never sends for you.",
+  "description": "A clarity button in the composer: restates what you meant, asks two or three questions with clickable options, then rewrites the draft into a request an agent can start on. It never sends for you.",
   "type": "module",
   "main": "lib/index.js",
   "exports": {

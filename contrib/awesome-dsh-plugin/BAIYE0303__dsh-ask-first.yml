@@ -1,0 +1,7 @@
+url: https://github.com/BAIYE0303/dsh-ask-first
+name: BAIYE0303/dsh-ask-first
+category: ui
+description:
+  en: 'A clarity button in the composer: restates what you meant, asks two or three questions with clickable options, then rewrites the draft into a request an agent can start on. It never sends for you.'
+  zh: '输入框里的一个澄清按钮：先复述它听懂的意思，再问两三个带可点选项的问题，最后把草稿重写成 agent 能直接开工的需求。它从不替你发送。'
+icon: https://raw.githubusercontent.com/BAIYE0303/dsh-ask-first/main/assets/icon-180.png
