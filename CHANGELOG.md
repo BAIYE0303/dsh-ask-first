@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.1
+
+Documentation only, no code change.
+
+- The install command in both READMEs now uses the npm package name
+  (`dsh plugin --profile web add dsh-ask-first`) instead of the GitHub shorthand, so it resolves
+  through the registry and pins a version instead of tracking the default branch.
+- Same change in `contrib/listing.en.md` and `contrib/listing.zh.md`.
+
 ## 1.0.0
 
 First public release.

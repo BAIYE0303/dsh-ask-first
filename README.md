@@ -21,10 +21,10 @@ with a goal, the constraints, and a definition of done.
 ## Install
 
 ```bash
-dsh plugin --profile web add github:BAIYE0303/dsh-ask-first
+dsh plugin --profile web add dsh-ask-first
 ```
 
-Or in the GUI: **Plugins → Add plugin**, and paste `github:BAIYE0303/dsh-ask-first`.
+Or in the GUI: **Plugins → Add plugin**, and paste `dsh-ask-first`.
 
 The plugin has a browser half, so **restart the host** after installing. The button then sits at the
 bottom-left of the composer, on the send row. There is nothing to configure and no key to paste.

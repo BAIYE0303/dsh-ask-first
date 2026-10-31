@@ -24,7 +24,7 @@ DeepSeek Harness 输入框里的一个澄清按钮：先问你什么意思，再
 ## 安装
 
 ```bash
-dsh plugin --profile web add github:BAIYE0303/dsh-ask-first
+dsh plugin --profile web add dsh-ask-first
 ```
 
 装完**需要重启宿主**，因为插件带浏览器半边。按钮随后出现在输入框左下角、发送那一行。没有配置项，

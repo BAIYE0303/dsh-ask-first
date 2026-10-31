@@ -19,10 +19,10 @@ DeepSeek Harness 输入框里的一个澄清按钮：先问你什么意思，再
 ## 安装
 
 ```bash
-dsh plugin --profile web add github:BAIYE0303/dsh-ask-first
+dsh plugin --profile web add dsh-ask-first
 ```
 
-或者打开 GUI：**插件 → 添加插件**，填 `github:BAIYE0303/dsh-ask-first`。
+或者打开 GUI：**插件 → 添加插件**，填 `dsh-ask-first`。
 
 插件带浏览器半边，装完**需要重启宿主**。之后按钮就在输入框左下角、发送那一行的左侧。
 没有配置项，也没有 key 要填。

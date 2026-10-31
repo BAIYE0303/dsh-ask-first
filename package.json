@@ -1,6 +1,6 @@
 {
   "name": "dsh-ask-first",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A clarity button in the composer: restates what you meant, asks two or three questions with clickable options, then rewrites the draft into a request an agent can start on. It never sends for you.",
   "type": "module",
   "main": "lib/index.js",

@@ -29,7 +29,7 @@ Typing is optional throughout: each question also takes a free-text line, and th
 ## Install
 
 ```bash
-dsh plugin --profile web add github:BAIYE0303/dsh-ask-first
+dsh plugin --profile web add dsh-ask-first
 ```
 
 **Restart the host** afterwards — the plugin has a browser half. The button then sits at the
