@@ -1,0 +1,19 @@
+name: superagent acceptance probe
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  issues: write
+
+jobs:
+  probe:
+    if: github.repository == 'BAIYE0303/dsh-ask-first'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post the mention
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/${{ github.repository }}/issues/1/comments"             -f body='@BAIYE0303 请在 README.md 末尾追加一行 `superagent acceptance probe ok`，然后开一个 PR。只改这一行。'             --jq .html_url
