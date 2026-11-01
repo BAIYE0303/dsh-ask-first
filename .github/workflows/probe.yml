@@ -17,4 +17,4 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh api "repos/${{ github.repository }}/issues/1/comments"             -f body='@BAIYE0303 请在 README.md 末尾追加一行 `superagent acceptance probe ok`，然后开一个 PR。只改这一行。'             --jq .html_url
+          gh api "repos/${{ github.repository }}/issues/1/comments"             -f body='@BAIYE0303 README.md 里有个拼写错误：`option normalizaton` 应该是 `option normalisation`。请改正这一处并开一个 PR。'             --jq .html_url

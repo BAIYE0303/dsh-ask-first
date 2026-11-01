@@ -135,7 +135,7 @@ node test-offline.mjs
 ```
 
 39 checks, no network and no host process: route registration, request validation, JSON extraction from
-fenced replies, option normalisation, cross-site rejection, and the request body sent to the model.
+fenced replies, option normalizaton, cross-site rejection, and the request body sent to the model.
 
 ## Notes for reviewers
 
